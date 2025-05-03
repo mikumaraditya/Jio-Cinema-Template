@@ -1,0 +1,250 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.navbar-part1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-part2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#jiocinemalogo{
+    width: 138px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.logo-div{
+    margin: 0 5px;
+}
+
+.icon{
+    color: #ffffffa6;
+    margin: 5px 12px;
+    font-weight: 600;
+}
+
+#stat-minus{
+    margin: 6px 0;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.icon2{
+    color: white;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+
+#avatar_guest{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#search-icon{
+    margin: 7px 0;
+    cursor: pointer;
+}
+
+#search-box{
+    background-color: #ffffff1a;
+    color: white;
+    border: 0 solid black;
+    width: 280px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+}
+
+#search-box::placeholder{
+    font-weight: bold;
+}
+
+hr{
+    height: 1px;
+    opacity: 0.3;
+    border: none;
+    background-color: #ffffffa6;
+}
+
+.image{
+    display: block;
+}
+
+#cricket{
+    width: 600px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+#cricket:hover{
+    width: 600px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#cartoon{
+    width: 440px;
+    height: 500px;
+    margin-top: 5px;
+    border-radius: 15px;
+
+}
+
+#cartoon:hover{
+    width: 440px;
+    height: 500px;
+    margin-top: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+
+}
+
+#tvshow{
+    width: 440px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+#tvshow:hover{
+    width: 440px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffffa6;
+    background-color: #17181a;
+}
+
+.footer1{
+    width: 300px;
+    margin-left: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer1 div div:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#highlight{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.social-media-icons{
+    width: 280px;
+    margin-right: 20px;
+}
+
+.social-media-icons div{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#outter-div-media{
+    display: flex;
+    justify-content: start;
+}
+
+#media-icons{
+    width: 52px;
+    height: 52px;
+    margin: 0 7px 7px 0;
+    background-color: #ffffff1f;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#media-icons img{
+    width: 25px;
+    height: 25px;
+}
+
+#media-icons img:hover{
+    transform: scale(1.3);
+}
+
+#download-app{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#outter-div-playstore{
+    width: 260px;
+}
+
+#play-store span img{
+    width: 110px;
+    margin: 5px 8px 5px 0;
+}
+
+#play-store span img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
